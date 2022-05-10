@@ -1,0 +1,14 @@
+ID      BR_6
+Summary:        Товар добавляется в корзину с незаполнеными данными в карточке
+Precondition:   Открыта страница сайта: http://astrio-spa.dev-mage3.com/venia-dresses.html?p=2
+Step to reproduce:      1. Открыть страницу сайта: http://astrio-spa.dev-mage3.com/venia-dresses.html?p=2   Открыть первую карточку товара. Добавить товар в корзину.
+        2. Открыть страницу сайта: http://astrio-spa.dev-mage3.com/venia-dresses.html?p=2  Навести курсор на карточку товара из шага 1. Добавить в корзину.
+Result  Не появляется всплывающее окно о том,что товар добавлен в корзину. Счетчик корзины увиличился на добавленное количество товаров в корзину. Товар добавляется в корзину.
+Expected result:        Не появляется всплывающее окно о том,что товар добавлен в корзину. Счетчик корзины не изменяется. Товар не добавляется в корзину.
+Reproducibility:        Всегда
+Severity:       Critical
+Priority:       High(1)
+Environment:    Windows 7 x64 Google Chrome Версия 96.0.4664.45, (64 бит)
+Stand:  http://astrio-spa.dev-mage3.com/venia-dresses/alexia-maxi-dress.html
+Attachment:     Видео: https://drive.google.com/file/d/1XRsEK5DG4GHtogkwc3ErAlmR8h9OUkkT/view?usp=sharing
+
